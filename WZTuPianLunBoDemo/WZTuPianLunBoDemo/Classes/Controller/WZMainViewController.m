@@ -22,6 +22,7 @@ static NSString *const dataUrlStr = @"http://c.m.163.com/nc/ad/headline/0-3.html
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    self.automaticallyAdjustsScrollViewInsets = NO;
     [self loadData];
 }
 
